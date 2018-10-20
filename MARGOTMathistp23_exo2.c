@@ -2,6 +2,8 @@
  *	TP2 - Exercise 2 - System Programming
  *	Pipechain - Language : C
  *
+ *	Compilation : gcc MARGOTMathistp23_exo2.c -o ex2
+ *
  *	This program creates N processes (N given in parameter). The ith data (1 < i < N) reads
  *	the x pipe, gives new value to the data, and write it on the y pipe, the Nth pipe sends
  *	the data back to the first, which ends the program.
